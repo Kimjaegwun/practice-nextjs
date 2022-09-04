@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Date from '../components/date'
 
-export async function getStaticProps() {
+export function getStaticProps() {
   const allPostsData = getSortedPostsData()
 
   return {
